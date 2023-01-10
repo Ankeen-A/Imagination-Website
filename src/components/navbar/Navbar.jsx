@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="navbar-links">
         {/* title logo to the left */}
         <div className="navbar-links-logo-txt"> 
-        <a href='/'>Tools Of Imagination<br /><a className="italics">For Engineering</a></a>
+        <a href='/'>Tools Of Imagination<br /><div className="italics">For Engineering</div></a>
         </div>
 
         {/* options on the navbar */}
