@@ -1,0 +1,62 @@
+.bg-img , .body-bg-img {
+    width: 100vw;
+    object-fit: cover;
+    height: 88vh;
+}
+
+
+.body-title {
+    position:absolute;
+    top:15vw;
+    left:8vw;
+    align-items: center;
+    text-align: center;
+}
+
+.body-title p1 {
+    color: #FFFFFF;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vw;
+    line-height: 1.5vw;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 1);
+    display: flex;
+}
+
+.body-title p2 {
+    color: #FFFFFF;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.75vw;
+    line-height: 1.5vw;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 1);
+    display: flex;
+}
+
+.body-about {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 22vw;
+    left:8vw;
+    width:35%;
+    padding:2rem;
+    border-radius: 0rem;
+}
+
+.body-about p1 {
+    color: #000000;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}

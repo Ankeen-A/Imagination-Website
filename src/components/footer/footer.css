@@ -1,0 +1,28 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    height: 12vh;
+    background-color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    width:100%;
+}
+
+.footer-logo {
+    margin: 0 auto 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-jsoe {
+    width:15vw;
+}
+
+.logo-imagin {
+    width:15vw;
+}

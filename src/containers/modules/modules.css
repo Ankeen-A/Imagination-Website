@@ -1,0 +1,121 @@
+.modules-body {
+    width: 100%;
+    height:auto;
+    overflow-y: hidden;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
+.section1, .section2, .section3, .section4 {
+    position: relative;
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+    top: 10vw;
+    height: 25rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.5);
+    background-color: #e8e8e8;
+}
+
+.section4 {
+    margin-bottom: 20vh;
+}
+
+
+.section-text {
+    color: #000000;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-style: normal;
+    font-weight: normal;
+    align-items: center;
+    text-align: center;
+    width:50%;
+    margin:auto;
+    padding:3rem;
+}
+
+.section-text-title {
+    font-size: 2.5vw;
+    line-height: 5vw;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.section-text-description {
+    font-size: 1vw;
+    line-height: 1.5vw;
+}
+
+.section1-text-button-view, .section1-text-button-download, .section2-text-button-download,.section2-text-button-view  {
+    margin:2rem;
+    padding:0.5rem;
+    width:30%;
+    color: white;
+    background-color: #0D314B;
+    font-weight: 300;
+    font-size: 1vw;
+    border-width: 0px;
+}
+
+.section1-text-button-view:hover, .section1-text-button-download:hover  {
+    margin:2rem;
+    padding:0.5rem;
+    color:#000000;
+    background-color: #FFE454;
+    box-shadow: 0px 5px 5px 0px #a9a9a9;
+    border-width: 0px;
+    cursor:pointer;
+}
+
+.section1-img {
+    position:relative;
+    overflow:hidden;
+    object-fit: contain;
+    height: 25rem;
+    float:right;
+    width:100%;
+}
+
+.section1-img-bg {
+    background-color:white;
+    position:relative;
+    overflow:hidden;
+    height: 25rem;
+    float:right;
+    width:100%;
+}
+
+.section2-img, .section3-img, .section4-img {
+    position:relative;
+    overflow:hidden;
+    object-fit: cover;
+    height: 25rem;
+    float:right;
+    width:100%;
+}
+
+
+/* .section-text-description {
+    display:none;
+    transition: 1000ms;
+}
+
+.section-text-title:hover {
+    display:none;
+    transition: 1000ms;
+}
+
+.section-text-title:hover + .section-text-description{
+    display:block;
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    transition: 1000ms;
+} */
