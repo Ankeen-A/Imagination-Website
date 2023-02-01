@@ -2,7 +2,6 @@ import React from 'react';
 import './home.css';
 import bgImg from '../../assets/img-b.jpg';
 
-
 const Body = () => {
   return (
     <div className="body">
